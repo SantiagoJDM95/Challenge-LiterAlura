@@ -38,10 +38,11 @@ Asegúrate de tener PostgreSQL instalado y crea una base de datos llamada litera
 #Configurar el archivo de propiedades:
 Modifica src/main/resources/application.properties con tus credenciales de PostgreSQL:
 
-'''spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
+'''bash 
+spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
-spring.jpa.hibernate.ddl-auto=update'''
+spring.jpa.hibernate.ddl-auto=update
 
 #Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
